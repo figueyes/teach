@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Siempre que esté en el head-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Así comento en html-->
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Etiquetas  semánticas-->
+    <header>
+        <nav class="menu">
+            <a class="link" href="index.html"> Home</a>
+            <a class="link" href="#seccion"> Secciones</a>
+            <a class="link" href="#contacto"> Contacto</a>
+        </nav>
+    </header>
+
+    <section id="seccion">
+        <div id="unique">
+            <h1>Esta es mi primera página web</h1>
+            <h2>Este es un sitio web de estudio para mi amigo Pedro</h2>
+
+        </div>
+
+        <div class="can-repeat">
+            <p>
+                Este es mi primer párrafo
+            </p>
+        </div>
+
+        <div class="can-repeat">
+            <p>
+                Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Consectetur, perspiciatis
+                nostrum odit repudiandae in, quasi excepturi
+                ab tempore dicta, reiciendis minus maiores ex
+                inventore ipsam magni perferendis enim? Vero,
+                quia!
+            </p>
+
+        </div>
+
+        <div class="can-repeat">
+            <h3>Este es un ejercicio con botones</h3>
+            <div id="lighter"></div>
+            <button type="button" onclick="colorChanger('blue');">se apaga</button>
+            <button type="button" onclick="colorChanger('yellow');">se prende</button>
+        </div>
+    </section>
+
+    <section id="contacto">
+        Pedro Riveros 
+        pedro@pedro.com
+    </section>
+
+    <footer>
+        <p>Esto va abajo, en los pies</p>
+    </footer>
+
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
